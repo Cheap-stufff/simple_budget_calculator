@@ -2,7 +2,6 @@ class Phones:
           def __init__(self, name, price, model):
                     self.name = name
                     self.price = float(price)
-                    self.model = model
                     
           def budget_check(self, budget):
                     if not isinstance(budget, (int, float)):
